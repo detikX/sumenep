@@ -1,0 +1,19 @@
+// $kuning: #fcca67;
+$kuning:#fbcc7a;
+$biru: #005296;
+$hijau: #6ebf52;
+$birumuda: #0695b4;
+.bg {
+    &-yellow {
+        background: $kuning;
+    }
+    &-blue {
+        background: $biru;
+    }
+    &-green {
+        background: $hijau;
+    }
+    &-birumuda {
+        background: $birumuda;
+    }
+}
