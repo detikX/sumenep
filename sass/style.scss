@@ -211,6 +211,7 @@ section {
 
             @media screen and (max-width:766px) {
                 font-size: 2rem;
+                padding: 8px;
             }
         }
     }
@@ -252,7 +253,7 @@ section {
 
         @media screen and (max-width:766px) {
             width: 200px;
-            bottom: initial;
+            bottom: -32px;
         }
 
         img {
@@ -277,4 +278,35 @@ section {
             object-fit: cover;
         }
     }
+}
+
+.datanya {
+    background: linear-gradient(to bottom, white, #80ceda);
+
+    .titles {
+        &__cek {
+            font-size: 2rem;
+            color: #526771;
+            font-family: 'Montserrat';
+            // letter-spacing: 4px;
+        }
+
+        &__bawah {
+            font-family: 'Montserrat';
+            font-size: 2.5rem;
+        }
+
+        h3 {
+            font-size: 4rem;
+            color: #f69f1a;
+            font-weight: 700;
+            text-shadow: 2px 2px #333;
+            font-family: 'Montserrat';
+
+            @media screen and (max-width:766px) {
+                font-size: 3rem;
+            }
+        }
+    }
+
 }
