@@ -292,6 +292,11 @@ section {
             height: 190px;
             overflow: auto;
         }
+
+        @media screen and (max-width:766px) {
+            height: 220px;
+            overflow: auto;
+        }
     }
 
     .titles {
