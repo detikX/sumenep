@@ -288,7 +288,7 @@ section {
     position: relative;
 
     .content {
-        @media screen and (max-width: 766px) {
+        @media screen and (max-width: 361px) {
             height: 190px;
             overflow: auto;
         }
@@ -556,8 +556,8 @@ section {
             // text-shadow: 2px 2px black;
 
             @media screen and (max-width:766px) {
-                font-size: 1.25rem;
-                font-weight: 500;
+                font-size: 2rem;
+                font-weight: 700;
             }
         }
 
