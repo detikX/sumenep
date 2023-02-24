@@ -287,6 +287,13 @@ section {
     background: linear-gradient(to bottom, white, #80ceda);
     position: relative;
 
+    .content {
+        @media screen and (max-width: 766px) {
+            height: 190px;
+            overflow: auto;
+        }
+    }
+
     .titles {
         &__cek {
             font-size: 2rem;
@@ -562,7 +569,7 @@ section {
             padding: 8px;
 
             @media screen and (max-width:766px) {
-                font-size: 2.3rem;
+                font-size: 2.1rem;
             }
 
             text-shadow: 2px 2px #333;
