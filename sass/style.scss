@@ -541,11 +541,14 @@ section {
         .atas {
             font-size: 2.2rem;
             // color: #0e9644;
-            color: #526771;
+            //  color: #fee40a;
+            color: #fee40a;
             font-weight: 700;
+            text-shadow: 2px 2px black;
 
             @media screen and (max-width:766px) {
                 font-size: 1.25rem;
+                font-weight: 500;
             }
         }
 
