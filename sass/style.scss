@@ -532,19 +532,21 @@ section {
         text-align: center;
 
         h3 {
-            color: white;
+            // color: white;
             font-family: 'Montserrat';
             margin: 0;
             padding: 0;
+            width: fit-content;
+            margin: 0 auto;
         }
 
         .atas {
             font-size: 2.2rem;
             // color: #0e9644;
             //  color: #fee40a;
-            color: #fee40a;
+            color: #4a4a4a;
             font-weight: 700;
-            text-shadow: 2px 2px black;
+            // text-shadow: 2px 2px black;
 
             @media screen and (max-width:766px) {
                 font-size: 1.25rem;
@@ -554,7 +556,10 @@ section {
 
         .bawah {
             font-size: 2.6rem;
-            color: #fee40a;
+            background: #f69f1a;
+            color: white;
+            margin-top: 8px;
+            padding: 8px;
 
             @media screen and (max-width:766px) {
                 font-size: 2.3rem;
