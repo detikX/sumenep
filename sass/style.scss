@@ -152,7 +152,7 @@ section {
 
 .intro {
     position: relative;
-    background: linear-gradient(to bottom, #bde5f9, white);
+    background: linear-gradient(to bottom, #acfbdb, white);
 
     p {
         @media screen and (max-width:766px) {
@@ -319,9 +319,13 @@ section {
     }
 
     .nama-pulau {
-        font-size: 1.8rem;
-        font-weight: bold;
-        color: #093ca4;
+        font-size: 1.5rem;
+        /* font-weight: bold; */
+        background: #825631;
+        width: fit-content;
+        padding: 8px;
+        color: white;
+        border-radius: 4px;
 
         @media screen and (max-width:766px) {
             font-size: 1.3rem;
@@ -484,7 +488,7 @@ section {
         bottom: 0;
         top: 0;
         z-index: 2;
-        background: linear-gradient(to bottom, #e9d2a8, transparent, #bde5f9);
+        background: linear-gradient(to bottom, #e9d2a8, transparent, #acfbdb);
     }
 
     &::after {
@@ -511,6 +515,29 @@ section {
             width: 100%;
             height: 100%;
             object-fit: cover;
+        }
+    }
+}
+
+.pesiar {
+    position: relative;
+    background: linear-gradient(to top, transparent, #80ceda);
+
+    .titles {
+        width: fit-content;
+        background: #00b15c;
+        padding: 8px;
+
+        h3 {
+            color: white;
+        }
+
+        .atas {
+            font-size: 2.2rem;
+        }
+
+        .bawah {
+            font-size: 2.6rem;
         }
     }
 }
