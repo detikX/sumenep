@@ -606,6 +606,9 @@ section {
     // background: #f75;
     background: #deb867;
     padding: 84px 0 32px;
+    @media screen and (max-width:766px) {
+        padding: 64px 0 32px;
+    }
     /* position: absolute; */
     // left: 0;
     // top: 0;
