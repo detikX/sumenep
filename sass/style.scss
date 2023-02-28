@@ -834,6 +834,14 @@ section {
         left: 20%;
         width: 150px;
         height: auto;
+        @media screen and (max-width:766px) {
+            position: absolute;
+            top: 0;
+            left: initial;
+            right: 0;
+            width: 76px;
+            height: auto;
+        }
         img {
             width: 100%;
             height: 100%;
@@ -874,6 +882,9 @@ section {
     }
 
     .slick-next {
+        @media screen and (max-width:766px) {
+            right: 0;
+        }
         &::before {
             font-family: 'FontAwesome' !important;
             content: '\f054' !important;
@@ -882,6 +893,9 @@ section {
     }
 
     .slick-prev {
+        @media screen and (max-width:766px) {
+            left: 0;
+        }
         &::before {
             font-family: 'FontAwesome' !important;
             content: '\f053' !important;
