@@ -7,7 +7,7 @@ $('.all-photo').slick({
     infinite: true,
     speed: 300,
     autoplay: true,
-    slidesToShow: 3,
+    slidesToShow: 2.1,
     slidesToScroll: 1,
     responsive: [
       {

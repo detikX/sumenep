@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wisata dan Budaya di Sumenep</title>
     <link rel="stylesheet" href="sass/font-awesome.css">
+    <link rel="stylesheet" href="sass/jquery.fancybox.min.css">
     <link rel="stylesheet" href="sass/bootstrap.min.css">
     <link rel="stylesheet" href="sass/slick-theme.css">
     <link rel="stylesheet" href="sass/slick.css">
@@ -264,32 +265,46 @@
         </section>
 
         <section class="galeri">
+            <div class="camera">
+                <img src="img/camera.png" alt="">
+            </div>
             <div class="container">
                 <div class="text-center">
                     <h3 class="title">Galeri</h3>
+                    <p>Klik gambar untuk melihat lebih besar</p>
                 </div>
-                <div class="container">
+                <div class="lala">
                     <div class="row">
                         <div class="col-md-10 offset-md-1">
                             <div class="all-photo">
                                 <div class="img">
-                                    <img src="img/gili-iyang.jpg" alt="">
+                                    <a href="img/gili-iyang.jpg" data-fancybox="gallery" data-caption="Gili Iyang">
+                                        <img src="img/gili-iyang.jpg" alt="Gili Iyang" title="Gili Iyang">
+                                    </a>
                                 </div>
 
                                 <div class="img">
-                                    <img src="img/pulau-gili-labak.jpg" alt="">
+                                    <a href="img/pulau-gili-labak.jpg" data-fancybox="gallery" data-caption="Pulau Gili Labak">
+                                        <img src="img/pulau-gili-labak.jpg" alt="Pulau Gili Labak" title="Pulau Gili Labak">
+                                    </a>
                                 </div>
 
                                 <div class="img">
-                                    <img src="img/sembilan-beach.jpg" alt="">
+                                    <a href="img/keratons.jpg" data-fancybox="gallery" data-caption="Keraton Sumenep">
+                                        <img src="img/keratons.jpg" alt="Keraton Sumenep" title="Keraton Sumenep">
+                                    </a>
                                 </div>
 
                                 <div class="img">
-                                    <img src="img/9.jpg" alt="">
+                                    <a href="img/sembilan-beach.jpg" data-fancybox="gallery" data-caption="Pantai Sembilan">
+                                        <img src="img/sembilan-beach.jpg" alt="Pantai Sembilan" title="Pantai Sembilan">
+                                    </a>
                                 </div>
 
                                 <div class="img">
-                                    <img src="img/keratons.jpg" alt="">
+                                    <a href="img/labak.jpg" data-fancybox="gallery" data-caption="Labak">
+                                        <img src="img/labak.jpg" alt="Labak" title="Labak">
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -303,6 +318,7 @@
 
     <script src="js/jquery-3.5.1.min.js"></script>
     <script src="js/slick.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
     <script src="js/wow.min.js"></script>
     <script src="js/app.js"></script>
 </body>
