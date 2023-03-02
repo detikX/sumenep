@@ -204,9 +204,9 @@
         // animation: warna 2s linear infinite;
         .test {
             position: absolute;
-            left: 10%;
-            top: 40%;
-            font-weight: bold;
+            left: 14%;
+            top: 37%;
+            // font-weight: bold;
 
             // background: white;
             // padding: 2px;
@@ -243,8 +243,7 @@
 
         @keyframes MoveUpDownMob {
 
-            0%,
-            100% {
+            0% {
                 left: 14%;
                 top: 45%;
             }
@@ -261,7 +260,12 @@
 
             90% {
                 left: 66%;
-                top: 47%
+                top: 45%
+            }
+
+            100% {
+                left: 68%;
+                top: 47%;
             }
         }
 
@@ -295,7 +299,7 @@
         .test2 {
             position: absolute;
             right: 20%;
-            top: 37%;
+            top: 44%;
 
             @media screen and (max-width:766px) {
                 font-size: 12px;
