@@ -1,5 +1,6 @@
 .bgbg {
     background: linear-gradient(to bottom, #ace2f9, #28a4dd, #ace2f9);
+    // background: #28a4dd;
 }
 
 .cerita {
@@ -204,7 +205,7 @@
         .test {
             position: absolute;
             left: 10%;
-            top: 30%;
+            top: 40%;
             font-weight: bold;
 
             // background: white;
@@ -220,20 +221,41 @@
 
             0%,
             100% {
-                left: 25%;
+                left: 14%;
+                top: 48%;
             }
 
             50% {
                 left: 30%;
+                top: 36%;
             }
+
+            70% {
+                left: 50%;
+                top: 40%;
+            }
+
+            90% {
+                left: 66%;
+                top: 50%
+            }
+
+
         }
 
         .test-pesawat {
+            // position: absolute;
+            // left: 25%;
+            // top: 32%;
+            // width: 80px;
+            // animation: MoveUpDown 2.5s linear infinite;
+
             position: absolute;
-            left: 25%;
-            top: 32%;
+            left: 14%;
+            top: 48%;
             width: 80px;
-            animation: MoveUpDown 2.5s linear infinite;
+            animation: MoveUpDown 6.5s linear infinite;
+            z-index: 35;
 
             img {
                 width: 100%;
