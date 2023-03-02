@@ -239,8 +239,30 @@
                 left: 66%;
                 top: 50%
             }
+        }
 
+        @keyframes MoveUpDownMob {
 
+            0%,
+            100% {
+                left: 14%;
+                top: 45%;
+            }
+
+            50% {
+                left: 30%;
+                top: 33%;
+            }
+
+            70% {
+                left: 50%;
+                top: 37%;
+            }
+
+            90% {
+                left: 66%;
+                top: 47%
+            }
         }
 
         .test-pesawat {
@@ -259,6 +281,8 @@
 
             @media screen and (max-width:766px) {
                 width: 40px;
+                top: 45%;
+                animation: MoveUpDownMob 6.5s linear infinite;
             }
 
             img {
