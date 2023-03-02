@@ -1,3 +1,7 @@
+.bgbg {
+    background: linear-gradient(to bottom, #ace2f9, #28a4dd, #ace2f9);
+}
+
 .cerita {
     position: relative;
     z-index: 8;
@@ -5,7 +9,7 @@
     // background: #000;
     // background: #2b4138;
     // background: linear-gradient(to bottom, #e9d2a8, transparent, #e9d2a8);
-    background: #c9a562;
+    // background: #c9a562;
     font-family: 'Poppins';
 
     // background: url('../img/gedungx.png');
@@ -208,6 +212,33 @@
             // border-radius: 4px;
             @media screen and (max-width:766px) {
                 font-size: 12px;
+            }
+        }
+
+
+        @keyframes MoveUpDown {
+
+            0%,
+            100% {
+                left: 25%;
+            }
+
+            50% {
+                left: 30%;
+            }
+        }
+
+        .test-pesawat {
+            position: absolute;
+            left: 25%;
+            top: 32%;
+            width: 80px;
+            animation: MoveUpDown 2.5s linear infinite;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
             }
         }
 
