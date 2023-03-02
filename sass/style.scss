@@ -313,7 +313,7 @@ section {
     position: relative;
 
     @media screen and (max-width:766px) {
-        padding: 32px 0 180px;
+        padding: 32px 0 300px;
     }
 
     .content {
@@ -419,6 +419,7 @@ section {
         @media screen and (max-width:766px) {
             right: 0;
             bottom: 0;
+            width: 600px;
         }
 
         .g1 {
