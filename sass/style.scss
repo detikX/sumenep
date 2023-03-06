@@ -27,14 +27,14 @@ section {
     position: relative;
     // c9a562
     // background: linear-gradient(to bottom, transparent, #e9d2a8);
-    background: linear-gradient(to bottom, transparent, #c9a562);
+    background: linear-gradient(to bottom, transparent, #98d4ff);
 
     .logo {
         position: absolute;
         left: 5%;
         top: 15%;
         z-index: 3;
-        width: 60vw;
+        width: 50vw;
         height: auto;
 
         @media screen and (max-width:766px) {

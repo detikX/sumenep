@@ -338,6 +338,30 @@
             }
         }
 
+        @keyframes MoveUpOmbak {
+
+            0%,
+            100% {
+                left: 50%;
+            }
+
+            50% {
+                left: 45%;
+            }
+        }
+
+        @keyframes MoveUpOmbak2 {
+
+            0%,
+            100% {
+                left: 25%;
+            }
+
+            50% {
+                left: 32%;
+            }
+        }
+
         .test-awan {
             position: absolute;
             top: 20%;
@@ -345,6 +369,36 @@
             width: 100px;
             opacity: 1;
             animation: MoveUpAwan 8.5s linear infinite;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
+        }
+
+        .test-ombak {
+            position: absolute;
+            bottom: 15%;
+            left: 50%;
+            width: 40px;
+            opacity: 1;
+            animation: MoveUpOmbak 4.5s linear infinite;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
+        }
+
+        .test-ombak2 {
+            position: absolute;
+            bottom: 20%;
+            left: 25%;
+            width: 40px;
+            opacity: 1;
+            animation: MoveUpOmbak2 4.5s linear infinite;
 
             img {
                 width: 100%;
