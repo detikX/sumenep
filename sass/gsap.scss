@@ -468,6 +468,7 @@
         .test3 {
             position: absolute;
             right: 0%;
+            z-index: 9;
             top: 49%;
 
             @media screen and (max-width:766px) {
