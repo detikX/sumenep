@@ -266,25 +266,46 @@
 
         @keyframes MoveUpDownMob {
 
-            0%,
-            100% {
+            0% {
                 left: 14%;
                 top: 45%;
+                opacity: 0;
+            }
+
+            10% {
+                left: 14%;
+                top: 45%;
+                opacity: 1;
             }
 
             50% {
                 left: 30%;
                 top: 33%;
+                opacity: 1;
             }
 
             75% {
                 left: 50%;
                 top: 37%;
+                opacity: 1;
+            }
+
+            85% {
+                left: 66%;
+                top: 45%;
+                opacity: 1;
             }
 
             90% {
                 left: 66%;
-                top: 45%
+                top: 45%;
+                opacity: 1;
+            }
+
+            100% {
+                left: 66%;
+                top: 45%;
+                opacity: 0;
             }
 
             // 100% {
