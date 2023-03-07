@@ -28,9 +28,29 @@ section {
     // c9a562
     // background: linear-gradient(to bottom, transparent, #e9d2a8);
     background: linear-gradient(to bottom, transparent, #98d4ff);
+    &__keraton {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 50vh;
+        filter: grayscale(1);
+        opacity: .4;
+        @media screen and (max-width:766px) {
+            height: auto;
+            bottom: 24px;
+        }
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
     .orang {
         position: absolute;
         left: 30%;
+        z-index: 8;
         bottom: 0;
         width: 520px;
         height: auto;
