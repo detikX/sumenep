@@ -28,7 +28,22 @@ section {
     // c9a562
     // background: linear-gradient(to bottom, transparent, #e9d2a8);
     background: linear-gradient(to bottom, transparent, #98d4ff);
-
+    .orang {
+        position: absolute;
+        left: 30%;
+        bottom: 0;
+        width: 520px;
+        height: auto;
+        @media screen and (max-width:766px) {
+            width: 300px;
+            left: 0;
+        }
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
     .logo {
         position: absolute;
         left: 5%;
@@ -40,7 +55,7 @@ section {
         @media screen and (max-width:766px) {
             left: 0;
             top: initial;
-            bottom: 10vh;
+            bottom: 50vh;
             width: 100vw;
         }
 
@@ -1015,4 +1030,8 @@ section {
     }
 
 
+}
+
+.tetap {
+    font-size: 12px;
 }
