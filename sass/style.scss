@@ -1032,6 +1032,25 @@ section {
 
 }
 
+@keyframes MoveTetap {
+
+    0%,100% {
+        top: 0;
+        
+    }
+
+    50% {
+        top: 4px;
+    }
+}
+
 .tetap {
     font-size: 12px;
+    // background: white;
+    padding: 4px;
+    position: relative;
+    top: 0;
+    color: #3085ff;
+    animation: MoveTetap .2s linear infinite;
+    // width: fit-content;
 }
