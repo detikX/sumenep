@@ -626,6 +626,27 @@ section {
         padding-bottom: 30vh;
     }
 
+    .ismobile {
+        display: none;
+        @media screen and (max-width:766px) {
+            display: block;
+            position: absolute;
+            left: 0;
+            right: 0;
+            z-index: 6;
+            bottom: 0;
+            top: 0;
+            width: 100vw;
+            height: 100vh;
+            opacity: .4;
+        }
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
+
     &::before {
         content: "";
         position: absolute;
