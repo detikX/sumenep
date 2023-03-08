@@ -667,7 +667,9 @@ section {
         z-index: 2;
         background: linear-gradient(to bottom, #e9d2a8, transparent 0%);
         @media screen and (max-width:766px) {
-            background: linear-gradient(to bottom, #e9d2a8, transparent);
+            background: linear-gradient(to top, #e9d2a8, transparent);
+            height: 100px;
+            top: initial;
         }
     }
 
