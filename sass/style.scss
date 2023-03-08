@@ -626,6 +626,16 @@ section {
         padding-bottom: 30vh;
     }
 
+    .tag {
+        background: #eee;
+        color: #000;
+        padding: 4px 8px;
+        width: fit-content;
+        border-radius: 8px;
+        font-size: 12px;
+
+    }
+
     .ismobile {
         display: none;
         @media screen and (max-width:766px) {
@@ -675,6 +685,7 @@ section {
         font-size: 3.5rem;
         font-family: "Montserrat";
         color: #9e4954;
+        margin: 4px 0 16px;
         text-shadow: 2px 2px black;
         @media screen and (max-width:766px) {
             font-size: 2rem;
@@ -820,7 +831,14 @@ section {
                 font-size: 1.5rem;
             }
         }
-
+        .help-blue2 {
+            background: #a6853b;
+            position: absolute;
+            top: 30px;
+            left: 0;
+            right: 0;
+            height: 300px;
+        }
         .help-blue {
             position: absolute;
             top: 30px;
