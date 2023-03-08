@@ -480,6 +480,10 @@
             z-index: 9;
             top: 49%;
 
+            @media screen and (min-width:1440px) {
+                right: 4%;
+                top: 50%;
+            }
             @media screen and (max-width:766px) {
                 font-size: 12px;
             }
