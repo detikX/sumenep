@@ -67,17 +67,18 @@ section {
     }
     .logo {
         position: absolute;
-        left: 5%;
-        top: 15%;
+        left: 50%;
+        top: 30%;
         z-index: 3;
-        width: 50vw;
+        width: 30vw;
         height: auto;
+        transform: translate(-50%,-50%);
 
         @media screen and (max-width:766px) {
             left: 0;
+            width: 30vw;
             top: initial;
             bottom: 50vh;
-            width: 100vw;
         }
 
         img {
