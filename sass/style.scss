@@ -45,15 +45,30 @@ section {
         }
     }
 
+    &__bawah {
+        position: absolute;
+        bottom: 10vh;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: auto;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
+
     &__keraton {
         position: absolute;
         bottom: 0;
         left: 0;
         right: 0;
         width: 100%;
-        height: 50vh;
-        filter: grayscale(1);
-        opacity: .4;
+        height: 60vh;
+        // filter: grayscale(1);
+        // opacity: .4;
 
         @media screen and (max-width:766px) {
             height: auto;
@@ -93,7 +108,7 @@ section {
         left: 50%;
         top: 30%;
         z-index: 3;
-        width: 30vw;
+        width: 15vw;
         height: auto;
         transform: translate(-50%, -50%);
 
