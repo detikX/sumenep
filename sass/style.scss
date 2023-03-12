@@ -52,6 +52,9 @@ section {
         right: 0;
         width: 100%;
         height: auto;
+        @media screen and (max-width:766px) {
+            bottom: 10vh;
+        }
 
         img {
             width: 100%;
