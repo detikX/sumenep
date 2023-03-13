@@ -29,6 +29,23 @@
         }
     }
 
+    .genting2 {
+        position: absolute;
+        width: 55px !important;
+        height: 27px !important;
+        position: absolute !important;
+        right: -5vw;
+        bottom: 32vh;
+       
+        @media screen and (max-width:766px) {
+            width: 29px !important;
+            height: 28px !important;
+            position: absolute !important;
+            right: -1vw;
+            bottom: 15vh;
+        }
+    }
+
     &__bg {
         position: absolute;
         // display: none;
