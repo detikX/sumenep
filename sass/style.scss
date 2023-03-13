@@ -38,6 +38,9 @@ section {
         bottom: 0;
         width: 100%;
         height: 100%;
+        @media screen and (max-width:766px) {
+            height: 88%;
+        }
         img {
             object-fit: cover;
             width: 100%;
