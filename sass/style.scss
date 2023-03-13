@@ -40,6 +40,7 @@ section {
         height: 100%;
         @media screen and (max-width:766px) {
             height: 88%;
+            filter: blur(1.5px);
         }
         img {
             object-fit: cover;
@@ -81,10 +82,72 @@ section {
         }
     }
 
+    
+    @keyframes MoveBur1 {
+
+        0%,
+        100% {
+            top: 20vh;
+
+        }
+
+        50% {
+            top: 22vh;
+        }
+    }
+
+    @keyframes MoveBur2 {
+
+        0%,
+        100% {
+            top: 24vh;
+
+        }
+
+        50% {
+            top: 26vh;
+        }
+    }
+
+    &__bur1 {
+        position: absolute;
+        top: 20vh;
+        animation: MoveBur1 2.5s linear infinite;
+        left: 30%;
+        width: 100px;
+        height: auto;
+        @media screen and (max-width:766px) {
+            width: 70px;
+            left: 20%;
+        }
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
+
+    &__bur2 {
+        position: absolute;
+        top: 24vh;
+        animation: MoveBur2 2s linear infinite;
+        left: 40%;
+        width: 40px;
+        height: auto;
+        @media screen and (max-width:766px) {
+            width: 40px;
+        }
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
+
     &__keraton {
         position: absolute;
         bottom: 12vh;
-        left: 0;
+        left: 10vw;
         right: 0;
         width: 100%;
         height: 60vh;
@@ -93,6 +156,7 @@ section {
 
         @media screen and (max-width:766px) {
             height: auto;
+            left: 0;
             bottom: 10vh;
         }
 
