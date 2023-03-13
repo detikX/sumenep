@@ -499,15 +499,72 @@
                 font-size: 12px;
             }
         }
+        @keyframes testSumenep {
+
+            0% {
+                opacity: 0;
+            }
+
+            10% {
+                opacity: 0;
+            }
+
+
+            30% {
+                opacity: 0;
+            }
+
+            55% {
+                opacity: 0;
+            }
+
+            65% {
+                opacity: 0;
+            }
+
+            75% {
+                opacity: .5;
+            }
+
+            78% {
+                opacity: .7;
+            }
+
+            80% {
+                opacity: 1;
+            }
+
+            85% {
+                opacity: 1;
+            }
+
+            90% {
+                opacity: .7;
+            }
+
+            99% {
+                opacity: .7;
+            }
+
+            100% {
+                opacity: .5;
+            }
+
+            // 80% {
+
+            // }
+        }
 
         .test4 {
             position: absolute;
             right: 8%;
             border-radius: 4px;
             top: 39%;
+            // opacity: 0;
             background: rgba(255, 255, 255, .7);
             padding: 4px;
             color: #bf1e2e;
+            // animation: testSumenep 6.5s linear infinite;
 
             @media screen and (max-width:766px) {
                 font-size: 12px;
