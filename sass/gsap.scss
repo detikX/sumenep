@@ -13,7 +13,21 @@
         // background: #2b4138;
     }
 
-   
+    .genting {
+        position: absolute;
+        width: 24px !important;
+        height: 33px !important;
+        position: absolute !important;
+        right: 0;
+        bottom: 22vh;
+        @media screen and (max-width:766px) {
+            width: 18px !important;
+            height: 28px !important;
+            position: absolute !important;
+            right: 4vw;
+            bottom: 12vh;
+        }
+    }
 
     &__bg {
         position: absolute;
