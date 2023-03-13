@@ -7,24 +7,13 @@
     position: relative;
     z-index: 8;
     padding: 32px 0;
-    // background: #000;
-    // background: #2b4138;
-    // background: linear-gradient(to bottom, #e9d2a8, transparent, #e9d2a8);
-    // background: #c9a562;
     font-family: 'Poppins';
 
-    // background: url('../img/gedungx.png');
-    // &::before {
-    //     content: '';
-    //     position: fixed;
-    //     top: 0;
-    //     left: 0;
-    //     bottom: 0;
-    //     background: url('../img/gedungx.png');
-    // }
     .bg-hijau {
         // background: #2b4138;
     }
+
+   
 
     &__bg {
         position: absolute;
