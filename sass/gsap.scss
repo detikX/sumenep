@@ -24,8 +24,8 @@
             width: 18px !important;
             height: 28px !important;
             position: absolute !important;
-            right: 4vw;
-            bottom: 12vh;
+            right: 12vw;
+            bottom: 13vh;
         }
     }
 
@@ -45,6 +45,23 @@
             bottom: 15vh;
         }
     }
+
+    .genting3 {
+        width: 9px!important;
+        height: 24px !important;
+        position: absolute !important;
+        right: -34px;
+        bottom: 17vh;
+        @media screen and (max-width:766px) {
+            width: 4px !important;
+            height: 19px !important;
+            position: absolute !important;
+            right: 5vw;
+            bottom: 12vh;
+        }
+    }
+
+    
 
     &__bg {
         position: absolute;
