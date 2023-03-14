@@ -879,7 +879,7 @@ section {
 .dummy-footer {
     display: none;
     @media screen and (max-width:766px) {
-        display: block;
+        // display: block;
     }
     position: fixed;
     bottom: 0;
