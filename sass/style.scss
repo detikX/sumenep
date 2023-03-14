@@ -72,7 +72,7 @@ section {
         width: 100%;
         height: auto;
         @media screen and (max-width:766px) {
-            bottom: 10vh;
+            bottom: 59px;
         }
 
         img {
@@ -157,7 +157,7 @@ section {
         @media screen and (max-width:766px) {
             height: auto;
             left: 0;
-            bottom: 10vh;
+            bottom: 60px;
         }
 
         img {
@@ -740,7 +740,21 @@ section {
     @media screen and (max-width:766px) {
         padding-bottom: 30vh;
     }
-
+    &__img {
+        width: 60%;
+        margin: 0 auto 16px;
+        position: relative;
+        z-index: 9;
+        display: none;
+       @media screen and (max-width:766px) {
+        display: block;
+       }
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
     .tag {
         background: #eee;
         color: #000;
@@ -823,7 +837,17 @@ section {
         right: 0;
         top: 0;
         bottom: 0;
-
+        // &::after {
+        //     content: "";
+        //     position: absolute;
+        //     left: 0;
+        //     bottom: 0;
+        //     right: 0;
+        //     top: 85%;
+        //     z-index: 3;
+        //     /* height: 60px; */
+        //     background: linear-gradient(to top, #c2e9a8, transparent);
+        // }
         &::before {
             @media screen and (max-width:766px) {
                 content: "";
@@ -848,6 +872,37 @@ section {
             width: 100%;
             height: 100%;
             object-fit: cover;
+        }
+    }
+}
+
+.dummy-footer {
+    display: none;
+    @media screen and (max-width:766px) {
+        display: block;
+    }
+    position: fixed;
+    bottom: 0;
+    height: 59px;
+    background: #ccc;
+    z-index: 99;
+    left: 0;
+    right: 0;
+}
+
+.video {
+    background: #c2e9a8;
+    display: none;
+    .title {
+        h2 {
+            font-family: 'Montserrat';
+            font-size: 3.5rem;
+            text-align: center;
+            color: #c4242e;
+            text-shadow: 2px 2px white;
+            @media screen and (max-width:766px) {
+                font-size: 2rem;
+            }
         }
     }
 }
@@ -1409,5 +1464,35 @@ section {
     .img {
         margin: 8px auto;
         text-align: center;
+    }
+}
+
+.shortcut {
+    @media screen and (max-width:766px) {
+        display: block;
+        // display: flex;
+        // justify-content: space-around;
+        // align-items: center;
+        
+    }
+    display: none;
+    position: fixed;
+    bottom: 59px;
+    left: 0;
+    right: 0;
+    // padding: 4px;
+    text-align: center;
+    // height: 20px;
+    color: white;
+    background: #00c174;
+    z-index: 101;
+    div {
+        // border: 1px solid;
+        display: inline-block;
+        padding: 4px;
+        width: 30%;
+        // background: rgba($color: #00c174, $alpha: .8);
+        background: #01a865;
+        margin: 0 4px;
     }
 }
