@@ -5,72 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>tes</title>
+    <link rel="stylesheet" href="sass/font-awesome.css">
+    <link rel="stylesheet" href="sass/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="sass/bootstrap.min.css">
+    <link rel="stylesheet" href="sass/slick-theme.css">
+    <link rel="stylesheet" href="sass/slick.css">
     <link rel="stylesheet" href="sass/cek.css">
+    <link rel="stylesheet" href="sass/animate.min.css">
+    <!-- <link rel="stylesheet" href="sass/style.css"> -->
 </head>
 <body>
-    <section class="spacer"><h1>Start Scrolling</h1></section>
-
-<section class="image-unmask">
-
-<img id="img" src="img/jawa.png">
-  
-<svg id="svg">
-  <defs>
-    <mask id="mask">
-      <rect width="100%" height="100%" fill="white"></rect>
-      <circle id="circle" cx="50%" cy="50%" r="100" fill="black"></circle>
-    </mask>
-  </defs>
-  <!--<rect id="whiteLayer" width="100%" height="100%" fill="white"></rect>-->
-  <rect width="100%" height="100%" fill="black" mask="url(#mask)"></rect>
-</svg>
-
-</section>  
-
-<section class="content">
-  
-  <div class="inner">
-  
-  <h1>Some Content Here</h1>
-  <p>Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon starboard grog black jack gangway rutters.
-
-Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors. Bring a spring upon her cable holystone blow the man down spanker Shiver me timbers to go on account lookout wherry doubloon chase. Belay yo-ho-ho keelhaul squiffy black spot yardarm spyglass sheet transom heave to.
-
-Trysail Sail ho Corsair red ensign hulk smartly boom jib rum gangway. Case shot Shiver me timbers gangplank crack Jennys tea cup ballast Blimey lee snow crow's nest rutters. Fluke jib scourge of the seven seas boatswain schooner gaff booty Jack Tar transom spirits.</p>
     
-      <p>Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon starboard grog black jack gangway rutters.
-
-Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors. Bring a spring upon her cable holystone blow the man down spanker Shiver me timbers to go on account lookout wherry doubloon chase. Belay yo-ho-ho keelhaul squiffy black spot yardarm spyglass sheet transom heave to.
-
-Trysail Sail ho Corsair red ensign hulk smartly boom jib rum gangway. Case shot Shiver me timbers gangplank crack Jennys tea cup ballast Blimey lee snow crow's nest rutters. Fluke jib scourge of the seven seas boatswain schooner gaff booty Jack Tar transom spirits.</p>
+<main>
+    <div class="container">
+      <h3>Look Ma, no JS! Scroll down...</h3>
   
-  </div> 
-    
-</section>  
-
-<section class="content">
-  
-  <div class="inner">
-  
-  <h1>Some Content Here</h1>
-    
-  <p>Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon starboard grog black jack gangway rutters.
-
-Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors. Bring a spring upon her cable holystone blow the man down spanker Shiver me timbers to go on account lookout wherry doubloon chase. Belay yo-ho-ho keelhaul squiffy black spot yardarm spyglass sheet transom heave to.
-
-Trysail Sail ho Corsair red ensign hulk smartly boom jib rum gangway. Case shot Shiver me timbers gangplank crack Jennys tea cup ballast Blimey lee snow crow's nest rutters. Fluke jib scourge of the seven seas boatswain schooner gaff booty Jack Tar transom spirits.</p>
-    
-      <p>Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon starboard grog black jack gangway rutters.
-
-Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors. Bring a spring upon her cable holystone blow the man down spanker Shiver me timbers to go on account lookout wherry doubloon chase. Belay yo-ho-ho keelhaul squiffy black spot yardarm spyglass sheet transom heave to.
-
-Trysail Sail ho Corsair red ensign hulk smartly boom jib rum gangway. Case shot Shiver me timbers gangplank crack Jennys tea cup ballast Blimey lee snow crow's nest rutters. Fluke jib scourge of the seven seas boatswain schooner gaff booty Jack Tar transom spirits.</p>
-  
-  </div> 
-    
-</section> 
-  
-<img id="img-fixed" src="img/jawa.png">
+      <p>Previously, building content headers that scrolled normally until sticking to the top of the viewport required listening to scroll events and switching an element’s position from relative to fixed at a specified threshold. It was difficult to synchronize, and often results in small visual jumps.</p>
+      
+      <p>Chrome now supports CSS position: sticky;, a new way to position elements.</p>
+      
+      <p>An element that is position sticky, starts relative; but becomes fixed, after the element reaches a certain scroll position.</p>
+      
+      <p>Simply set position: sticky, and set a threshold for it to become sticky.</p>
+      
+      <div class="parent">
+      <div class="sticky-header is-sticky">I'm sticky</div>
+      <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut, exercitationem? Aperiam odio voluptates hic aliquid, in porro magni velit ipsa enim sunt adipisci dignissimos omnis, obcaecati laboriosam eum assumenda reprehenderit?</h3>
+      <p>Spicy jalapeno bacon ipsum dolor amet filet mignon tri-tip jowl shank short loin.  Pork chop ham hock burgdoggen t-bone strip steak jerky, salami bacon brisket pancetta beef.  Pork belly tri-tip jowl, jerky swine flank ground round brisket tongue bacon kevin beef ribs drumstick bresaola ham hock.  Shank venison jowl short ribs burgdoggen.  Fatback jerky short ribs beef ribs turducken.  Short loin pig jowl cupim venison meatball.</p>
+        
+      <p>Ground round biltong spare ribs, porchetta rump ham frankfurter hamburger sirloin bresaola pig.  Turducken andouille jerky capicola venison frankfurter shank.  Turkey ball tip rump, ribeye meatball short ribs pig jerky sausage shoulder pork loin andouille capicola swine.  Tongue chuck swine, brisket cupim ball tip shank pancetta tri-tip.  Pork prosciutto filet mignon alcatra pork belly leberkas.</p>
+        
+      <p>Ground round biltong spare ribs, porchetta rump ham frankfurter hamburger sirloin bresaola pig.  Turducken andouille jerky capicola venison frankfurter shank.  Turkey ball tip rump, ribeye meatball short ribs pig jerky sausage shoulder pork loin andouille capicola swine.  Tongue chuck swine, brisket cupim ball tip shank pancetta tri-tip.  Pork prosciutto filet mignon alcatra pork belly leberkas.</p>
+      </div>
+      
+      <p>Ground round biltong spare ribs, porchetta rump ham frankfurter hamburger sirloin bresaola pig.  Turducken andouille jerky capicola venison frankfurter shank.  Turkey ball tip rump, ribeye meatball short ribs pig jerky sausage shoulder pork loin andouille capicola swine.  Tongue chuck swine, brisket cupim ball tip shank pancetta tri-tip.  Pork prosciutto filet mignon alcatra pork belly leberkas.</p>
+      
+      <p>Ground round biltong spare ribs, porchetta rump ham frankfurter hamburger sirloin bresaola pig.  Turducken andouille jerky capicola venison frankfurter shank.  Turkey ball tip rump, ribeye meatball short ribs pig jerky sausage shoulder pork loin andouille capicola swine.  Tongue chuck swine, brisket cupim ball tip shank pancetta tri-tip.  Pork prosciutto filet mignon alcatra pork belly leberkas.</p>
+      
+      <p>Ground round biltong spare ribs, porchetta rump ham frankfurter hamburger sirloin bresaola pig.  Turducken andouille jerky capicola venison frankfurter shank.  Turkey ball tip rump, ribeye meatball short ribs pig jerky sausage shoulder pork loin andouille capicola swine.  Tongue chuck swine, brisket cupim ball tip shank pancetta tri-tip.  Pork prosciutto filet mignon alcatra pork belly leberkas.</p>
+      
+      <p>Ground round biltong spare ribs, porchetta rump ham frankfurter hamburger sirloin bresaola pig.  Turducken andouille jerky capicola venison frankfurter shank.  Turkey ball tip rump, ribeye meatball short ribs pig jerky sausage shoulder pork loin andouille capicola swine.  Tongue chuck swine, brisket cupim ball tip shank pancetta tri-tip.  Pork prosciutto filet mignon alcatra pork belly leberkas.</p>
+    </div>
+</main>
 
 <!-- <div id="content"></div> -->
     
