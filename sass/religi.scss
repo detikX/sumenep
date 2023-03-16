@@ -1,7 +1,8 @@
 .religi {
-    background: linear-gradient(to bottom, #fff0d2, #e6a85f);
+    // background: linear-gradient(to bottom, #fff0d2, #e6a85f);
     position: relative;
     // background: #e6a85f;
+    background: #e3e3e3;
 
     .batik-land-bottom {
         position: absolute;
@@ -29,7 +30,8 @@
             font-family: 'Montserrat';
             font-size: 3.5rem;
             text-align: center;
-            color: #7e1f0d;
+            color: #51b759;
+            text-shadow: 2px 2px black;
 
             @media screen and (max-width:766px) {
                 font-size: 2rem;

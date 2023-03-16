@@ -321,4 +321,26 @@
             }
         }
     }
+
+    .mob-depan {
+        position: absolute;
+        bottom: 8vh;
+        width: 200px;
+        height: auto;
+        right: 60%;
+
+        @media screen and (max-width:766px) {
+            position: absolute;
+            bottom: 13vh;
+            width: 115px;
+            height: auto;
+            right: 65%;
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
 }
