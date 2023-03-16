@@ -3,7 +3,13 @@
     // c9a562
     // background: linear-gradient(to bottom, transparent, #e9d2a8);
     background: linear-gradient(to bottom, transparent, #98d4ff);
-
+    .titles {
+        position: absolute;
+        top: 40%;
+        h2 {
+            font-family: 'Lobster';
+        }
+    }
     &__pantai {
         position: absolute;
         left: 0;
