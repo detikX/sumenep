@@ -15,6 +15,13 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+.ismobile {
+    display: none;
+    @media screen and (max-width:766px) {
+        display: block;
+    }
+}
+
 h2,
 h3 {
     font-weight: 700;
