@@ -1,0 +1,42 @@
+.opening {
+    padding: 32px 0;
+    min-height: auto ;
+    background: linear-gradient(to bottom, #8acaf8,#98d4ff);
+    // background: url('../img/bg-logo-history.png');
+    // #71cbe6
+
+    .ceks {
+        // border-bottom: 3px solid #71cbe6;
+        // background: #71cbe6;
+        // padding-bottom: 4px;
+        // border-bottom: 1px solid;
+        position: relative;
+        .dots {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 320px;
+            height: auto;
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
+        }
+        // &::after {
+        //     content: "";
+        //     position: absolute;
+        //     bottom: -15%;
+        //     left: 0%;
+        //     width: 50%;
+        //     // transform: translate(-50%, 0);
+        //     height: 1px;
+        //     background: black;
+        // }
+    }
+    // .ceks {
+    //     display: flex;
+    //     align-items: center;
+    //     justify-content: center;
+    // }
+}

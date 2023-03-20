@@ -301,9 +301,12 @@
     .mob-depan {
         position: absolute;
         bottom: 8vh;
-        width: 50%;
+        width: 38%;
         height: auto;
         right: 0;
+        @media screen and (min-width:1500px) {
+            width: 45%;
+        }
         @media screen and (max-width: 766px) {
             position: absolute;
             bottom: 10vh;
