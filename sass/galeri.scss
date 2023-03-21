@@ -20,7 +20,7 @@
     .other {
         position: relative;
         width: fit-content;
-        margin: 0 auto;
+        margin: 0 auto 24px;
         padding: 8px;
         border: 2px solid #ececec;
         &::before {
@@ -48,31 +48,35 @@
             transform: translate(0%, 0%);
         }
         h3 {
-            font-size: 1.5rem;
-            color: #ececec;
-            font-weight: normal;
-            margin-bottom: 0;
+            // font-size: 1.5rem;
+            // color: #ececec;
+            // font-weight: normal;
+            // margin-bottom: 0;
             position: relative;
             z-index: 9;
         }
     }
     .thumb {
         width: 25vw;
-        margin: 8px 0px;
+        margin: 8px 0px 16px;
         height: 280px;
         display: inline-block;
         position: relative;
-        margin-bottom: 8px;
+        // margin-bottom: 8px;
         @media screen and (min-width: 1800px) {
             width: 25vw;
             height: 420px;
         }
         @media screen and (max-width:766px) {
-            width: 100%;
-            margin: 0 auto;
-            height: auto;
+            // width: 100%;
+            // margin: 0 auto;
+            // height: auto;
+            // position: relative;
+            // margin-bottom: 8px;
+            width: 48%;
+            margin: 0 auto 20px;
+            height: 200px;
             position: relative;
-            margin-bottom: 8px;
         }
         .image {
             width: 100%;
@@ -236,9 +240,10 @@
         @media screen and (max-width: 766px) {
             position: absolute;
             top: 0;
-            left: initial;
+            left: 15%;
             right: 0;
             width: 76px;
+            z-index: 89;
             height: auto;
         }
         img {
