@@ -294,7 +294,7 @@
     }
 
     &-detail {
-
+        background: #e5e5e5;
         .gallery {
             display: flex;
             padding: 2px;
@@ -303,6 +303,9 @@
                 display: flex;
                 flex-direction: column;
                 width: 50%;
+                @media screen and (max-width:766px) {
+                    width: 50%;
+                }
                 &-height {
                     &__odd {
                         height: 280px;
