@@ -294,14 +294,35 @@
     }
 
     &-detail {
-        .imagev {
-            width: 100%;
-            height: 360px;
-            margin-bottom: 16px;
-            img {
-                width: 100%;
-                height: 100%;
-                object-fit: cover;
+
+        .gallery {
+            display: flex;
+            padding: 2px;
+            transition: .3s;
+            .imagev {
+                display: flex;
+                flex-direction: column;
+                width: 50%;
+                &-height {
+                    &__odd {
+                        height: 280px;
+                        margin: 2px;
+                        img {
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+                        }
+                    }
+                    &__even {
+                        margin: 2px;
+                        height: 200px;
+                        img {
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+                        }
+                    }
+                }
             }
         }
     }

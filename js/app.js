@@ -49,7 +49,7 @@ $('[data-fancybox="gallery"]').fancybox({
     "share",
     "close"
   ],
-  loop: false,
+  loop: true,
   protect: true
 });
 
