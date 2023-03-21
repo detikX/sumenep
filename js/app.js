@@ -151,3 +151,9 @@ $(".menus").hide()
 $(".dots").click(function () {
   $(".menus").fadeToggle();
 });
+
+$('.iyang').slick({
+  infinite: true,
+  slidesToShow: 1,
+  slidesToScroll: 1
+});

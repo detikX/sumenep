@@ -11,6 +11,28 @@
         // padding-bottom: 4px;
         // border-bottom: 1px solid;
         position: relative;
+    padding: 16px;
+    /* border: 1px solid #1b9cf8; */
+    // background: #71cbe6;
+    background:#c0e8fb;
+    border-radius: 16px;
+    .bg-abs {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 16px;
+        opacity: .7;
+        img {
+            width: 100%;
+            height: 100%;
+            border-radius: 16px;
+            object-fit: cover;
+        }
+    }
         .dots {
             position: absolute;
             left: 0;

@@ -5,17 +5,31 @@
     background: linear-gradient(to bottom, transparent, #98d4ff);
     .titles {
         position: absolute;
-        top: 20%;
+        top: 10%;
         right: 10%;
         @media screen and (max-width: 766px) {
-            right: 2%;
+            right: 5%;
         }
-        .ats {
+        .tgh {
             font-size: 5rem;
+            letter-spacing: 12px;
             color: #1e365a;
             text-shadow: 2px 2px white;
+        }
+        .ats {
+            font-size: 4rem;
+            color: #1e365a;
+            text-shadow: 2px 2px white;
+            font-family: 'Montserrat';
+            font-weight: 700;
+            .surga {
+                font-size: 5.5rem;
+                @media screen and (max-width:766px) {
+                    font-size: 2.8rem;
+                }
+            }
             @media screen and (max-width: 766px) {
-                font-size: 2.5rem;
+                font-size: 2rem;
             }
         }
         .bwh {
@@ -24,7 +38,7 @@
             text-align: right;
             text-shadow: 2px 2px #203858;
             @media screen and (max-width: 766px) {
-                font-size: 2rem;
+                font-size: 3rem;
             }
         }
         h2 {
