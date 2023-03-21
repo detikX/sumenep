@@ -97,7 +97,7 @@
             right: 0;
             left: 0;
             z-index: 9;
-            background: linear-gradient(to top, rgba(black, .4), transparent);
+            background: linear-gradient(to top, rgba(black, .5), transparent);
             transition: .2s;
             &:hover {
                 opacity: .4;
@@ -114,10 +114,12 @@
             font-size: 1.5rem;
             line-height: 1.5rem;
             color: white;
+            width: 300px;
             transform: translate(-50%, -50%);
             @media screen and (max-width: 766px) {
                 // font-size: 12px;
                 // width: 45%;
+                width: auto;
             }
         }
         .fax {
@@ -288,6 +290,19 @@
             font-family: 'FontAwesome' !important;
             content: '\f053' !important;
             font-size: 1.5rem;
+        }
+    }
+
+    &-detail {
+        .imagev {
+            width: 100%;
+            height: 360px;
+            margin-bottom: 16px;
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
         }
     }
 }
