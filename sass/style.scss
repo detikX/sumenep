@@ -18,19 +18,19 @@ body {
 
 .firstletter {
     &::first-letter {
-      float: left;
-      font-weight: bold;
-      margin-right: 8px;
-      font-size: 60px;
-      font-size: 6rem;
-      line-height: 40px;
-      line-height: 4rem;
-      height: 4rem;
-      text-transform: uppercase;
+        float: left;
+        font-weight: bold;
+        margin-right: 8px;
+        font-size: 60px;
+        font-size: 6rem;
+        line-height: 40px;
+        line-height: 4rem;
+        height: 4rem;
+        text-transform: uppercase;
     }
-  }
+}
 
-  .slick {
+.slick {
     &-slide {
         margin: 0 16px;
     }
@@ -43,12 +43,15 @@ body {
     &-prev {
         border: 2px solid rgba(255, 255, 255, 0.5);
         width: 42px;
-        background: rgba(#87c3d3,.6) ;
+        background: rgba(#87c3d3, .6);
         // backdrop-filter: blur(2px);
         height: 42px;
         border-radius: 50%;
-        &:hover, &:focus,&:active {
-            background: rgba(#87c3d3,.8) ;
+
+        &:hover,
+        &:focus,
+        &:active {
+            background: rgba(#87c3d3, .8);
         }
 
         &::before {
@@ -98,8 +101,17 @@ body {
     }
 }
 
+.isdesktop {
+    display: block;
+
+    @media screen and (max-width:766px) {
+        display: none;
+    }
+}
+
 .ismobile {
     display: none;
+
     @media screen and (max-width:766px) {
         display: block;
     }

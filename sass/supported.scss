@@ -18,4 +18,26 @@
         margin: 8px auto;
         text-align: center;
     }
+
+    .all {
+        margin-bottom: 8px;
+    }
+
+    .job {
+        // color: #ccc;
+    }
+
+    .namex {
+        font-weight: bold;
+        font-family: 'Montserrat';
+    }
+
+    .cene {
+        @media screen and (max-width:766px) {
+            text-align: center;
+            text-align: center;
+            border-top: 1px dashed #333;
+            padding-top: 24px;
+        }
+    }
 }
