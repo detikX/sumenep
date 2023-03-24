@@ -1,10 +1,22 @@
 .videod {
     min-height: 50vh;
     position: relative;
-    // padding-bottom: 52px;
+    padding-bottom: 62px;
     background: #f9e9ab;
     @media screen and (max-width: 766px) {
         min-height: auto;
+    }
+    .bg-videox {
+        position: absolute;
+        inset: 0;
+        opacity: .2;
+        width: 100%;
+        height: auto;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
     }
     h2 {
         font-family: 'Montserrat';
