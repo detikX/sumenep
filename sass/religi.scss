@@ -1,7 +1,5 @@
 .religi {
-    // background: linear-gradient(to bottom, #fff0d2, #e6a85f);
     position: relative;
-    // background: #e6a85f;
     &::after {
         content: "";
         position: absolute;
@@ -65,7 +63,8 @@
             font-family: 'Montserrat';
             font-size: 3.5rem;
             text-align: center;
-            color: #51b759;
+            // color: #51b759;
+            color: #d3bb4c;
             text-shadow: 2px 2px black;
             @media screen and (max-width: 766px) {
                 font-size: 2rem;
@@ -103,6 +102,7 @@
         h3 {
             font-size: 1.5rem;
             margin: 16px 0;
+            color: #5f4b3c;
         }
     }
 }
