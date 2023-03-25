@@ -14,6 +14,7 @@
 main,
 body {
     font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
 }
 
 .firstletter {
@@ -112,7 +113,7 @@ h3 {
 }
 
 section {
-    overflow-x: hidden;
+    // overflow-x: hidden;
     padding: 32px 0;
     min-height: 100vh;
 }
