@@ -860,7 +860,7 @@
             position: relative;
 
             &::before {
-                content: "";
+                // content: "";
                 position: absolute;
                 bottom: -12px;
                 left: 0;
@@ -879,7 +879,7 @@
             // width: fit-content;
             // padding: 4px 24px;
             // color: #01579b;
-            margin-bottom: 24px;
+            margin-bottom: 8px;
 
             // transform: skew(-20deg, 0);
             h2 {
