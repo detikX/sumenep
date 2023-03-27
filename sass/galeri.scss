@@ -294,15 +294,40 @@
     }
 
     &-detail {
-        background: #e5e5e5;
+        // background: #e5e5e5;
+        background: #a1ca9f;
         position: relative;
+        h1 {
+            font-size: 3.5rem;
+            font-weight: bold;
+            font-family: 'Montserrat';
+            color: white;
+            border-bottom: 4px solid;
+            text-shadow: 2px 2px black;
+            width: fit-content;
+            margin: 0 auto 16px;
+            padding-bottom: 8px;
+            @media screen and (max-width:766px) {
+                font-size: 2rem;
+            }
+        }
+        &::before {
+            content: "";
+            position: fixed;
+            left: 0;
+            right: 0;
+            top: 0;
+            z-index: 3;
+            bottom: 0;
+            background: linear-gradient(to top, #a1ca9f, transparent);
+        }
         &::after {
             content: "";
             position: fixed;
             inset: 0;
-            opacity: .7;
+            opacity: .1;
             z-index: 2;
-            background-image: url('../img/garis.png');
+            background-image: url('../img/bg-galeri.png');
         }
         .gallery {
             display: flex;
