@@ -127,6 +127,9 @@
         font-weight: 600;
         font-size: 2rem;
         font-family: 'Poppins';
+        @media screen and (max-width:766px) {
+            font-size: 1.6rem;
+        }
     }
 
     p {
