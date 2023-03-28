@@ -363,6 +363,10 @@
                             height: 20px;
                             opacity: .5;
                             background-image: url('../img/zoom-in.jpg');
+                            @media screen and (max-width: 766px) {
+                                width: 15px;
+                                height: 15px;
+                            }
                         }
                         img {
                             width: 100%;
@@ -384,6 +388,10 @@
                             height: 20px;
                             opacity: .5;
                             background-image: url('../img/zoom-in.jpg');
+                            @media screen and (max-width: 766px) {
+                                width: 15px;
+                                height: 15px;
+                            }
                         }
                         img {
                             width: 100%;
