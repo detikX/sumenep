@@ -352,6 +352,14 @@
                     &__odd {
                         height: 280px;
                         margin: 2px;
+                        position: relative;
+                        &::before {
+                            content: "";
+                            position: absolute;
+                            right: 8px;
+                            bottom: 8px;
+                            background-image: url('../img/zoom-in.png');
+                        }
                         img {
                             width: 100%;
                             height: 100%;
