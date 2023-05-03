@@ -17,6 +17,33 @@ body {
     overflow-x: hidden;
 }
 
+.share_icon>a {
+    @media screen and (max-width: 766px) {
+        padding: 0;
+    }
+    padding: 0;
+}
+
+.share_icon>a i {
+    font-size: 20px;
+    line-height: 37px;
+    @media screen and (max-width: 766px) {
+        font-size: initial
+    }
+}
+
+#share {
+    z-index: 104;
+}
+
+#nav {
+    // background: #007882 !important;
+    // z-index: 99 !important;
+    background: rgba(#007882, .5) !important;
+    z-index: 99 !important;
+    backdrop-filter: blur(11px);
+}
+
 .firstletter {
     &::first-letter {
         float: left;
