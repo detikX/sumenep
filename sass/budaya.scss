@@ -5,15 +5,12 @@
     // background: #deb867;
     background: #f5d389;
     padding: 84px 0 32px;
-
-    @media screen and (max-width:766px) {
+    @media screen and (max-width: 766px) {
         padding: 64px 0 32px;
     }
-
     .content-budaya {
         margin-bottom: 16px;
         position: relative;
-
         .judul {
             margin: 0 auto 24px;
             width: fit-content;
@@ -21,7 +18,6 @@
             // padding: 4px;
             // border-radius: 8px;
             position: relative;
-
             &::before {
                 position: absolute;
                 bottom: -8px;
@@ -33,12 +29,10 @@
                 background: #000;
                 transform: translate(-50%, 0%);
             }
-
             h3 {
                 font-size: 1.5rem;
             }
         }
-
         .help-blue2 {
             background: #e5c887;
             position: absolute;
@@ -47,7 +41,6 @@
             right: 0;
             height: 300px;
         }
-
         .help-blue {
             position: absolute;
             top: 30px;
@@ -56,13 +49,11 @@
             height: 300px;
             // background: rgba(#946D1B, 1);
             background: #cda248;
-
-            @media screen and (max-width:766px) {
+            @media screen and (max-width: 766px) {
                 background: rgba(#946D1B, .6);
             }
         }
     }
-
     .imgsa {
         width: fit-content;
         margin: 0 auto;
@@ -70,18 +61,15 @@
         z-index: 6;
         height: 420px;
         box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-
         img {
             width: 100%;
             height: 100%;
             object-fit: contain;
-
-            @media screen and (max-width:766px) {
+            @media screen and (max-width: 766px) {
                 object-fit: cover;
             }
         }
     }
-
     .batik-land {
         position: absolute;
         top: 0;
@@ -89,18 +77,15 @@
         right: 0;
         z-index: 3;
         height: 50px;
-
-        @media screen and (max-width:766px) {
+        @media screen and (max-width: 766px) {
             height: 20px;
         }
-
         img {
             width: 100%;
             height: 100%;
             object-fit: cover;
         }
     }
-
     .batik-land-bottom {
         position: absolute;
         bottom: 0;
@@ -108,42 +93,35 @@
         right: 0;
         z-index: 3;
         height: 50px;
-
-        @media screen and (max-width:766px) {
+        @media screen and (max-width: 766px) {
             height: 20px;
         }
-
         img {
             width: 100%;
             height: 100%;
             object-fit: cover;
         }
     }
-
     .belok {
         position: absolute;
         left: 0;
         top: 0;
         right: 0;
-
-        @media screen and (max-width:766px) {
+        @media screen and (max-width: 766px) {
             height: 240px;
         }
-
         img {
             width: 100%;
             height: 100%;
             object-fit: cover;
         }
     }
-
     .title {
         color: white;
         font-family: 'Montserrat';
         width: fit-content;
         position: relative;
         margin: 0 auto 32px;
-
         // &::before {
         //     content: "";
         //     position: absolute;
@@ -175,13 +153,12 @@
             text-shadow: 2px 2px #8f6c36;
             text-align: center;
             position: relative;
+            font-family: 'Montserrat' !important;
             z-index: 9;
-
-            @media screen and (max-width:766px) {
+            @media screen and (max-width: 766px) {
                 font-size: 2.5rem;
                 // margin-bottom: 24px;
             }
         }
-
     }
 }

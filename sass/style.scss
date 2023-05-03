@@ -28,7 +28,8 @@ body {
     font-size: 20px;
     line-height: 37px;
     @media screen and (max-width: 766px) {
-        font-size: initial
+        font-size: 15px !important;
+        line-height: 24px !important;
     }
 }
 
@@ -42,6 +43,12 @@ body {
     background: rgba(#007882, .5) !important;
     z-index: 99 !important;
     backdrop-filter: blur(11px);
+}
+
+.judul {
+    h3 {
+        font-family: 'Montserrat' !important;
+    }
 }
 
 .firstletter {
